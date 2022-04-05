@@ -1,22 +1,22 @@
 .section-elementor_left {
-    margin: auto 0;
+    margin: auto 0px;
 }
 
 .elementor-item {
-    margin: 0 70px;
+    margin: 0px 70px;
     width: 100px;
 }
 
 .elementor-item h3 a {
-    color: #002c8f;
+    color: rgb(0, 44, 143);
     text-decoration: none;
     line-height: 24px;
     font-size: 2.4rem;
-    transition: 0.4s;
+    transition: all 0.4s ease 0s;
 }
 
 .elementor-item h3 a:hover {
-    color: #0056b3;
+    color: rgb(0, 86, 179);
 }
 
 .elementor-slider {
@@ -25,21 +25,22 @@
 }
 
 .section-elementor-right {
-    margin: auto 0;
+    margin: auto 0px;
 }
 
 .section-elementor-title h3 {
     font-size: 5rem;
     width: 295px;
     line-height: 50px;
-    color: #002c8f;
+    color: rgb(0, 44, 143);
 }
 
 .section-elementor {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
-    height: 250px;
+    padding: 0px 170px;
+    height: 400px;
+    background-color: rgb(241, 246, 251);
 }
 
 a.play-link {
@@ -51,14 +52,14 @@ a.play-link {
 
 button.btn_sinner {
     border: none;
-    padding: 20px 0;
-    background: #21b6ff;
+    padding: 20px 0px;
+    background: rgb(33, 182, 255);
     margin-top: -9px;
-    transition: 0.4s;
+    transition: all 0.4s ease 0s;
 }
 
 button.btn_sinner:hover {
-    background: #002c8f;
+    background: rgb(0, 44, 143);
 }
 
 button.btn_sinner a {
@@ -80,6 +81,10 @@ button.btn_sinner a i {
     width: 500px;
 }
 
+.content .slider-btn {
+    display: flex;
+}
+
 .content h1 {
     font-size: 2.4rem;
     color: var(--white-color);
@@ -92,11 +97,15 @@ button.btn_sinner a i {
 }
 
 .content h1 span {
-    color: #21b6ff;
+    color: rgb(33, 182, 255);
 }
 
 .slider {
     position: relative;
+}
+
+.section-wrap {
+    margin-bottom: -5px;
 }
 
 .slider img {
@@ -114,17 +123,17 @@ button.btn-header>a {
 }
 
 button.btn-header {
-    background-color: #21b6ff;
+    background-color: rgb(33, 182, 255);
     border: none;
     border-radius: 5px;
     padding: 15px 40px;
     margin-left: 30px;
-    transition: 0.4s;
+    transition: all 0.4s ease 0s;
     cursor: pointer;
 }
 
 button.btn-header:hover {
-    background: #002c8f;
+    background: rgb(0, 44, 143);
 }
 
 li.menu-item {
@@ -132,7 +141,7 @@ li.menu-item {
 }
 
 li.menu-item:hover a {
-    color: #21b6ff;
+    color: rgb(33, 182, 255);
 }
 
 li.menu-item>a {
@@ -140,7 +149,7 @@ li.menu-item>a {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: bold;
-    transition: 0.4s;
+    transition: all 0.4s ease 0s;
     padding: 10px;
 }
 
@@ -173,9 +182,30 @@ a.logo-link {
     height: 100px;
 }
 
+.grid.wide .header-bottom.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    padding: 42px 170px;
+    background-color: rgba(0, 44, 143, 0.86);
+    transition: all 0.4s ease 0s;
+}
+
+.header-bottom.fixed a {
+    color: var(--white-color);
+}
+
 ul.top-bar_social-list>li>a>i {
     color: var(--white-color);
     font-size: 1.5rem;
+    transition: 0.4s;
+}
+
+ul.top-bar_social-list>li>a>i:hover {
+    color: rgb(33, 182, 255);
 }
 
 ul.top-bar_social-list>li {
@@ -186,17 +216,18 @@ ul.top-bar_social-list {
     display: flex;
     list-style: none;
     height: 100%;
-    margin: 0;
+    margin: 0px;
     align-items: center;
 }
 
 header.header {
-    background-color: #002c8f;
+    background-color: rgb(0, 44, 143);
     height: 50px;
+    position: relative;
 }
 
 .top-bar_address>li {
-    margin: 0 10px;
+    margin: 0px 10px;
     font-size: 1.5rem;
 }
 
@@ -216,11 +247,348 @@ ul.top-bar_address {
     height: 100%;
     align-items: center;
     margin: auto;
-    padding: 0;
+    padding: 0px;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     height: 100%;
+}
+
+.elementor-water {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 170px;
+}
+
+.elementor-water .elementor-water-left {
+    width: 85%;
+    height: 580px;
+    overflow: hidden;
+}
+
+.elementor-water .elementor-water-left:hover img {
+    transform: scale(1.2);
+}
+
+.elementor-water .elementor-water-left img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease 0s;
+    overflow: hidden;
+}
+
+.elementor-water .elementor-water-right {
+    padding: 50px 0px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.elementor-water-right .elementor-water-content span {
+    font-size: 2rem;
+    color: rgb(36, 181, 252);
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.elementor-water-right .elementor-water-content span::after {
+    content: "";
+    position: absolute;
+    top: 58px;
+    left: 20px;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(36, 181, 252);
+}
+
+.elementor-water-right .elementor-water-title-wrapper {
+    width: 78%;
+}
+
+.elementor-water-right .elementor-water-title-wrapper h3 {
+    font-size: 4rem;
+    line-height: 50px;
+    color: rgb(0, 44, 143);
+    margin-top: 10px;
+}
+
+.elementor-water-right .elementor-water-title-wrapper p {
+    font-size: 1.6rem;
+    margin-top: -20px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.elementor-water-right .elementor-water-ingredient .elementor-water-ingredient-wrapper {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.elementor-water-ingredient-wrapper .rain-water {
+    width: 170px;
+    margin-right: 20px;
+}
+
+.elementor-water-ingredient-wrapper .rain-water i {
+    font-size: 4rem;
+    color: rgb(33, 182, 255);
+    transition: all 0.4s ease 0s;
+}
+
+.elementor-water-ingredient-wrapper .rain-water i:hover {
+    color: rgb(0, 44, 143);
+}
+
+.elementor-water-ingredient-wrapper .rain-water h3 {
+    font-size: 2rem;
+    color: rgb(0, 44, 143);
+}
+
+.elementor-water-ingredient-wrapper .rain-water p {
+    font-size: 1.6rem;
+    opacity: 0.7;
+}
+
+.elementor-water-ingredient-wrapper .coconut-water {
+    width: 170px;
+    margin-left: 20px;
+}
+
+.elementor-water-ingredient-wrapper .coconut-water i {
+    font-size: 4rem;
+    color: rgb(33, 182, 255);
+    transition: all 0.4s ease 0s;
+}
+
+.elementor-water-ingredient-wrapper .coconut-water i:hover {
+    color: rgb(0, 44, 143);
+}
+
+.elementor-water-ingredient-wrapper .coconut-water h3 {
+    color: rgb(0, 44, 143);
+    font-size: 2rem;
+}
+
+.elementor-water-ingredient-wrapper .coconut-water p {
+    font-size: 1.6rem;
+    opacity: 0.7;
+}
+
+.elementor-water-right .elementor-water-btn button {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(33, 182, 255);
+    transition: all 0.4s ease 0s;
+}
+
+.elementor-water-right .elementor-water-btn button a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--white-color);
+    padding: 20px 40px;
+    display: block;
+}
+
+.elementor-water-right .elementor-water-btn button:hover {
+    background-color: rgb(0, 44, 143);
+}
+
+.elementor-water-right .elementor-water-btn button a i {
+    margin-left: 10px;
+}
+
+.elementor-statistics {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.elementor-statistics .elementor-statistic-item {
+    display: flex;
+    height: 100px;
+}
+
+.elementor-statistics .elementor-statistic-item:nth-child(2n) {
+    margin-top: 40px;
+}
+
+.elementor-statistic-item .elementor-statistic-icon {
+    margin: 0px auto;
+}
+
+.elementor-statistic-item .elementor-statistic-icon i {
+    font-size: 6rem;
+    color: rgb(0, 44, 143);
+}
+
+.elementor-statistic-item .elementor-statistic-number {
+    margin-left: 20px;
+}
+
+.elementor-statistic-item .elementor-statistic-number h3 {
+    font-size: 3rem;
+    color: rgb(33, 182, 255);
+    margin: 10px 0px;
+}
+
+.elementor-statistic-item .elementor-statistic-number h4 {
+    font-size: 1.6rem;
+    color: rgb(0, 44, 143);
+}
+
+.water-slider {
+    background-color: rgb(241, 246, 251);
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.water-slider .water-slider-title h3 {
+    color: rgb(33, 182, 255);
+    font-size: 2rem;
+    position: relative;
+}
+
+.water-slider .water-slider-title h3::after,
+.water-slider .water-slider-title h3::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 600px;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(33, 182, 255);
+}
+
+.water-slider .water-slider-title h3::before {
+    left: 765px;
+}
+
+.water-slider .water-slider-content h3 {
+    font-size: 5rem;
+    line-height: 60px;
+    color: rgb(0, 44, 143);
+}
+
+.water-slider .water-silder-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    margin: auto;
+}
+
+.water-slider .water-silder-list .water-item {
+    width: 340px;
+    height: 377px;
+    position: relative;
+    margin: 0px 10px;
+}
+
+.water-item .water-img {
+    width: 100%;
+}
+
+.water-item .water-img img {
+    width: 100%;
+}
+
+.water-item .water-content {
+    position: absolute;
+    bottom: 19px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--white-color);
+    border-radius: 3px;
+    width: 270px;
+    height: 80px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.water-item .water-content .water-tile h3 {
+    font-size: 2.6rem;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.water-item .water-content .water-tile h3:hover {
+    color: rgb(33, 182, 255);
+}
+
+.water-item .water-content .water-next {
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 10px 13px;
+    background-color: var(--white-color);
+    color: rgb(33, 182, 255);
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.water-item .water-content .water-next:hover i {
+    color: var(--white-color);
+}
+
+.water-item .water-content .water-next:hover {
+    background-color: rgb(33, 182, 255);
+}
+
+.water-item .water-content .water-next i {
+    font-size: 2rem;
+    transition: all 0.4s ease 0s;
+}
+
+.section-notification {
+    background-image: url("/assets/img/background-service.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(0, 44, 143);
+}
+
+.section-notification-wrapper {
+    background-color: rgb(0, 44, 143);
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 230px;
+}
+
+.section-notification .section-notification-title h3 {
+    font-size: 5rem;
+    line-height: 60px;
+    color: var(--white-color);
+    margin: 0px;
+}
+
+.section-notification .section-notification-btn {
+    display: flex;
+    margin: auto 0px;
+}
+
+.section-notification .section-notification-btn button {
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(33, 182, 255);
+    transition: all 0.4s ease 0s;
+}
+
+.section-notification .section-notification-btn button a {
+    display: block;
+    padding: 16px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.section-notification .section-notification-btn button:hover {
+    background-color: rgba(33, 182, 255, 0.22);
+}
+
+.section-notification .section-notification-btn button a i {
+    margin-left: 5px;
 }
